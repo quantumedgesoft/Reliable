@@ -48,7 +48,7 @@ const Navbar = () => {
                               {items.dropdown.map((subItem, subIndex) => (
                                 <li key={subIndex}>
                                   <NavLink
-                                    className="dropdown-item"
+                                    className="dropdown-item "
                                     to={subItem.href}
                                   >
                                     {subItem.name}
