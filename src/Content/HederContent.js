@@ -3,7 +3,15 @@ const hederContent = {
   nav_links: [
     { name: "Home", href: "/" },
     { name: "Funder", href: "/funder" },
-    { name: "Services", href: "/services" },
+    {
+      name: "Services",
+      href: "/services",
+      dropdown: [
+        { name: "CDPAP", href: "/cdpap" },
+        { name: "LHCSA", href: "/lhcsa" },
+        { name: "OTHERS", href: "/others" },
+      ],
+    },
     { name: "Gallery", href: "/gallery" },
     { name: "Resources", href: "/resources" },
   ],
