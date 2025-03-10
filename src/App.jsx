@@ -1,11 +1,10 @@
-import './App.css'
-import PrimaryLayout from './components/layout/PrimaryLayout'
+import PrimaryLayout from "./components/layout/PrimaryLayout";
 function App() {
   return (
     <>
-    <PrimaryLayout/>
+      <PrimaryLayout />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
